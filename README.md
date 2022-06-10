@@ -1,9 +1,9 @@
 # Simple Neural Network
-this is a simple neural network in JavaScript
+This is a simple neural network module in JavaScript
 
 # CDN
-use as a cdn in your html
-this nural network library is dependent on numjs.
+use Simele Neural Network module in yor html files via cdn.
+this Nural Network library is dependent on numjs.
 
 ```
 <script src="https://cdn.jsdelivr.net/gh/nicolaspanel/numjs@0.15.1/dist/numjs.min.js"></script>
@@ -17,7 +17,7 @@ new NeuralNetwork(number_of_inputs, array_of_hidden_layers, number_of_outputs, l
 let nn = new NeuralNetwork(2,[4],1,0.1)
 ```
 
-# Use
+# Training
 Neural Network Training
 ```
 for(let i = 0; i < 1000; i++){
@@ -25,8 +25,8 @@ for(let i = 0; i < 1000; i++){
 }
 ```
 
-Neural Network Prediction
- ```
- nn.query(input_array);
- ```
-
+# Predection
+Neural Network Prediction 
+```
+nn.query(input_array);
+```
